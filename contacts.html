@@ -51,11 +51,12 @@
       </div>
       <div class="contacts-card">
         <h4 class="heading4">Send me message</h4>
-        <form action="#">
-          <label>Your name <br><input class="input-text" cols="30" rows="5" type="text" placeholder="Alex"></label><br>
-          <label>Email <br><input class="input-text" cols="30" rows="5" type="email"
-              placeholder="mail@mail.ru"></label><br>
-          <label>Message <br><textarea class="input-text" cols="30" rows="8"></textarea></label>
+        <form enctype="text/plain" action="mailto:leoktmn@yandex.ru" method="POST">
+          <label>Your name:<input class="input-text" name="yourName" cols="30" rows="5" type="text"
+              placeholder="Alex"></label>
+          <label>Your e-mail:<input class="input-text" name="yourEmail" cols="30" rows="5" type="email"
+              placeholder="mail@mail.com"></label>
+          <label>Your Message:<textarea class="input-text" name="yourMessage" cols="30" rows="8"></textarea></label>
           <button class="button-submit" type="submit">Submit</button>
         </form>
       </div>

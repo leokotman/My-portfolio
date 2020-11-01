@@ -353,19 +353,29 @@ label {
 .experience {
     padding: 110px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background: #83a4d4;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.experience .content-heading {
+    display: block;
+    width: 100%;
+}
+
 .experience table {
     display: block;
     font-size: 18px;
+    margin: 0 auto;
+    border: 1px solid rgb(87, 150, 204);
+    box-sizing: border-box;
 }
 
-.experience table tr td {
+.experience table td {
     padding: 20px;
+    border: 1px solid rgb(87, 150, 204);
 }
 
 .input-text {
