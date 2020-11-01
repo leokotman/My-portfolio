@@ -350,6 +350,24 @@ label {
     width: 100%;
 }
 
+.experience {
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.experience table {
+    display: block;
+    font-size: 18px;
+}
+
+.experience table tr td {
+    padding: 20px;
+}
+
 .input-text {
     border: 1px solid #356EAD;
     box-sizing: border-box;
@@ -378,6 +396,7 @@ label {
 
 .map {
     width: 80%;
+    margin-bottom: 112px;
 }
 
 .top-footer {
@@ -399,7 +418,6 @@ label {
 
 footer {
     background: #316099;
-    margin-top: 112px;
 }
 
 .container_footer {
@@ -569,14 +587,11 @@ hr {
 
     .map {
         width: 100%;
+        margin-bottom: 64px;
     }
 
     .our-project {
         padding-top: 95px;
-    }
-
-    footer {
-        margin-top: 64px;
     }
 
     .footer-card {
@@ -710,8 +725,8 @@ hr {
         margin-bottom: 16px;
     }
 
-    footer {
-        margin-top: 32px;
+    .map {
+        margin-bottom: 32px;
     }
 
     .top-footer {
