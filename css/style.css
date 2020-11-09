@@ -409,6 +409,13 @@ label {
     margin-bottom: 112px;
 }
 
+.hr-dots {
+    margin: 30px auto 30px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 15px;
+}
+
 .top-footer {
     display: flex;
     justify-content: space-between;
