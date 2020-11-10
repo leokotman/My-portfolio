@@ -173,6 +173,7 @@ body {
 .contacts-card-noborder {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 43%;
     box-sizing: border-box;
     padding: 56px 32px 56px 0;
@@ -192,14 +193,14 @@ body {
 }
 
 .online-service_list1 {
-    list-style: none;
+    color: #1F3F68;
     background: url(../img/ic_language_24px.svg) no-repeat;
+    list-style: none;
     padding-left: 24px;
     background-size: contain;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #1F3F68;
 }
 
 .online-service_list2 {
