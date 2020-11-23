@@ -317,24 +317,14 @@ label {
 }
 
 .project_item {
-    position: relative;
     flex-grow: 1;
+
 }
 
 .project_item_margin {
     margin-right: 32px;
 }
 
-.project_text {
-    position: absolute;
-    font-size: 32px;
-    line-height: 46px;
-    text-align: right;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    top: 64px;
-    right: 64px;
-}
 
 .project_text_small {
     position: absolute;
@@ -344,6 +334,15 @@ label {
     color: #FFFFFF;
     top: 32px;
     left: 32px;
+    display: none;
+}
+
+.project_item:hover {
+    transform: scale(1.05);
+}
+
+.project_item:hover .project_text_small {
+    display: inline-block;
 }
 
 .project_img,
@@ -351,14 +350,28 @@ label {
     width: 100%;
 }
 
+.project_img {
+    object-fit: cover;
+}
+
+.project_item a .project_img {
+    border: 1px solid #5A98D0;
+    border-radius: 10px;
+}
+
+
+
 .experience {
     padding: 110px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #83a4d4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #83a4d4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .experience .content-heading {
