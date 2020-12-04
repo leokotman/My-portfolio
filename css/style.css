@@ -26,6 +26,14 @@
     padding-top: 40px;
 }
 
+.main-page:hover,
+.main-page:focus,
+.contacts:hover,
+.contacts:focus {
+    filter: contrast(2);
+    transform: scale(1.1);
+}
+
 li {
     display: inline;
 }
@@ -108,10 +116,19 @@ body {
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
     padding: 15px 50px;
+    box-sizing: border-box;
     text-decoration: none;
     align-self: flex-start;
     display: inline-block;
     margin-top: 71px;
+}
+
+.top_button:hover,
+.top_button:focus {
+    transform: scale(1.05);
+    background: #fff;
+    color: #5A98D0;
+    box-shadow: 5px 5px 5px 5px rgba(53, 110, 173, 0.2);
 }
 
 .what-we-do {
@@ -410,6 +427,13 @@ label {
     border-radius: 10px;
     padding-top: 23px;
     padding-bottom: 23px;
+    box-sizing: border-box;
+}
+
+.button-submit:hover,
+.button-submit:focus {
+    background: #fff;
+    color: #5A98D0;
 }
 
 .map {
@@ -489,6 +513,14 @@ footer {
     padding: 15px 80px;
     text-decoration: none;
     margin-right: 114px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.footer_button:hover,
+.footer_button:focus {
+    background: #fff;
+    color: #5A98D0;
 }
 
 hr {
