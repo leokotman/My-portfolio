@@ -91,6 +91,7 @@ body {
     color: #1F3F68;
     letter-spacing: 0.04em;
     margin-bottom: 32px;
+    text-transform: capitalize;
 }
 
 .top-paragraph {
@@ -162,7 +163,7 @@ body {
 .contacts-card {
     display: flex;
     flex-direction: column;
-    width: 57%;
+    width: 55%;
     padding: 54px;
     box-sizing: border-box;
     background: #FFFFFF;
@@ -177,6 +178,7 @@ body {
     width: 43%;
     box-sizing: border-box;
     padding: 56px 32px 56px 0;
+    margin-right: 2%;
     justify-content: space-between;
 }
 
@@ -312,6 +314,7 @@ label {
 
 .project_parent {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 32px;
 }
@@ -321,18 +324,13 @@ label {
 
 }
 
-.project_item_margin {
-    margin-right: 32px;
-}
-
-
 .project_text_small {
     position: absolute;
     font-size: 28px;
     line-height: 46px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
-    top: 32px;
+    color: #5A98D0;
+    top: 50px;
     left: 32px;
     display: none;
 }
@@ -352,13 +350,9 @@ label {
 
 .project_img {
     object-fit: cover;
-}
-
-.project_item a .project_img {
     border: 1px solid #5A98D0;
     border-radius: 10px;
 }
-
 
 
 .experience {
@@ -468,11 +462,12 @@ footer {
 
 .footer-heading {
     font-size: 36px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
     margin-bottom: 32px;
 }
 
