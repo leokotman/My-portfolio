@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Karla', sans-serif;
+}
+
 .header {
     min-height: 768px;
     background: linear-gradient(0deg, #DFEDF8 8.84%, rgba(152, 195, 232, 0) 31.12%);
@@ -17,7 +21,6 @@
     margin: auto;
 }
 
-
 .menu {
     justify-content: space-between;
     display: flex;
@@ -26,20 +29,24 @@
     padding-top: 40px;
 }
 
-.main-page:hover,
-.main-page:focus,
-.contacts:hover,
-.contacts:focus {
+.menu-li a {
+    text-decoration: none;
+}
+
+.menu-li:hover,
+.menu-li:focus {
     filter: contrast(2);
     transform: scale(1.1);
 }
 
-li {
-    display: inline;
+.menu-item {
+    font-size: 25px;
+    text-decoration: none;
+    margin: auto;
 }
 
-body {
-    font-family: sans-serif;
+li {
+    display: inline;
 }
 
 .top {
@@ -131,7 +138,7 @@ body {
     box-shadow: 5px 5px 5px 5px rgba(53, 110, 173, 0.2);
 }
 
-.what-we-do {
+.about-author {
     padding-top: 64px;
 }
 
@@ -305,19 +312,11 @@ label {
     padding-top: 20px;
 }
 
-.card_link {
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    color: #5A98D0;
-    text-decoration: none;
-}
-
 .our-project {
     max-width: 1140px;
     width: 80%;
     margin: auto;
-    padding-top: 64px;
+    padding: 64px 0 64px;
 }
 
 .paragraph_project {
@@ -338,7 +337,7 @@ label {
 
 .project_item {
     flex-grow: 1;
-
+    margin-bottom: 30px;
 }
 
 .project_text_small {
@@ -373,7 +372,7 @@ label {
 
 
 .experience {
-    padding: 110px;
+    padding: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -438,7 +437,7 @@ label {
 
 .map {
     width: 80%;
-    margin-bottom: 112px;
+    margin-bottom: 64px;
 }
 
 .hr-dots {
@@ -467,6 +466,7 @@ label {
 
 footer {
     background: #316099;
+    margin-top: 50px;
 }
 
 .container_footer {
@@ -542,6 +542,14 @@ hr {
 
 .footer-list {
     display: flex;
+}
+
+.hover-contact-link{
+    color: #fff;
+}
+
+.hover-contact-link:hover {
+    color: #98c2e7;
 }
 
 .copyright {
@@ -729,7 +737,7 @@ hr {
         line-height: 28px;
     }
 
-    .what-we-do {
+    .about-author {
         padding-top: 48px;
     }
 
