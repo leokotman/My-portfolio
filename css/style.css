@@ -397,6 +397,10 @@ label {
     box-sizing: border-box;
 }
 
+.experience table thead {
+    text-align: center;
+}
+
 .experience table td {
     padding: 20px;
     border: 1px solid rgb(87, 150, 204);
