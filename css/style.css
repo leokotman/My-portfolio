@@ -345,14 +345,14 @@ label {
     font-size: 28px;
     line-height: 46px;
     letter-spacing: 0.05em;
-    color: #5A98D0;
+    color: #093964;
     top: 50px;
     left: 32px;
     display: none;
 }
 
 .project_item:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .project_item:hover .project_text_small {
@@ -365,7 +365,7 @@ label {
 }
 
 .project_img {
-    object-fit: cover;
+    object-fit: contain;
     border: 1px solid #5A98D0;
     border-radius: 10px;
 }
